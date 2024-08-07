@@ -72,6 +72,6 @@ Deployment to both AWS and Render is managed through a Continuous Integration an
 
 The staging environment is hosted on Render, allowing for changes to be tested before they are deployed to production. The Render environment is connected to a staging database on AWS, where necessary changes and updates can be made.
 
-14. Whenever environment variables are changed, update them in the Render settings to ensure the staging environment functions correctly. This ensures that the application behaves consistently across different environments.
+14. Remember to update your environment variables on Render whenever they are changed locally to ensure the staging environment functions correctly. This ensures that the application behaves consistently across different environments.
 
 Good luck!
