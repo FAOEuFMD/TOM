@@ -4,7 +4,7 @@ TOM is a web app developed for the European Commission for the Control of Foot a
 
 This app is a prototype built with Vue, Node/Express, Tailwind CSS & D3.
 
-See the deployed version here: https://eufmd-tom.com.
+See the deployed version here: https://eufmd-tom.com
 
 See the documentation here: https://eufmd-fast-docs.onrender.com/
 
@@ -12,7 +12,7 @@ See the documentation here: https://eufmd-fast-docs.onrender.com/
 
 1. Clone the repository.
 
-## .gitignore Settings
+### .gitignore Settings
 
 2. This project uses a `.gitignore` file to exclude certain files and directories from version control. Here’s a summary of what’s ignored:
 
@@ -73,7 +73,3 @@ Deployment to both AWS and Render is done via a Continuous Integration and Deplo
 Render carries the staging version so changes can be made there and tested. The render version is connected to a staging database in AWS, where changes are made as and when necessary.
 
 Good luck!
-
-```
-
-```
