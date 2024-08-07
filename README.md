@@ -1,6 +1,6 @@
 # TOM Training Management System
 
-TOM is a Training Management System developed for the European Commission for the Control of Foot and Mouth Disease (EuFMD), that allows countries to manage their veterinarian training capacity. It supports the training capacity of member nations through a competency framework and provides recognition to individual learners. It also allows country managers to monitor the completion of training on a national scale.
+TOM is a web app developed for the European Commission for the Control of Foot and Mouth Disease (EuFMD) that allows countries to manage their veterinarian training capacity. It supports the training capacity of member nations through a competency framework and provides recognition to individual learners. It also allows country managers to monitor the completion of training on a national scale.
 
 This app is a prototype built with Vue, Node/Express, Tailwind CSS & D3.
 
