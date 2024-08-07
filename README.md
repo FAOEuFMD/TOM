@@ -47,18 +47,12 @@ Please make sure to keep these files out of version control to avoid potential i
 
 ### Development server
 
-- Run `npm start` in the project directory to start the Express server on port 5500.
-- `cd client` and run `npm run serve` to start the client server in development mode with hot reloading.
-
-### Production build
-
-Run `npm run build` in the client folder to create a production build in the server folder (`/server/public`).
+10. Run `npm start` in the project directory to start the Express server on port 5500.
+11. `cd client` and run `npm run serve` to start the client server in development mode with hot reloading.
 
 ### JWT
 
-JSON Web Tokens are used for user authorization and a secret string is used to sign the tokens.
-
-Add your secret to the `.env` file:
+12. Add your JWT secret to your `.env` file:
 
 ```
 
@@ -66,10 +60,16 @@ SUPER_SECRET=YOUR_SECRET
 
 ```
 
+JSON Web Tokens (JWT) are a compact, URL-safe means of representing claims to be transferred between two parties. The tokens are designed to be secure and can be used for authentication and information exchange.
+
+### Production build
+
+13. Run `npm run build` in the client folder to create a production build in the server folder (`/server/public`).
+
 ### Deploying to AWS & Render
 
-Deployment to both AWS and Render is done via a Continuous Integration and Deployment pipeline, on CircleCI. The configurations are in a .circleci folder in the root folder of this application.
+Deployment to both AWS and Render is managed through a Continuous Integration and Deployment (CI/CD) pipeline using CircleCI. The configurations for this pipeline are located in the .circleci folder in the root directory of this application.
 
-Render carries the staging version so changes can be made there and tested. The render version is connected to a staging database in AWS, where changes are made as and when necessary.
+The staging environment is hosted on Render, allowing for changes to be tested before they are deployed to production. The Render environment is connected to the production database on AWS, where necessary changes and updates can be made.
 
 Good luck!
