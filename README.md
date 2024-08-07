@@ -68,8 +68,10 @@ JSON Web Tokens (JWT) are a compact, URL-safe means of representing claims to be
 
 ### Deploying to AWS & Render
 
-Deployment to both AWS and Render is managed through a Continuous Integration and Deployment (CI/CD) pipeline using CircleCI. The configurations for this pipeline are located in the .circleci folder in the root directory of this application.
+Deployment to both AWS and Render is managed through a Continuous Integration and Deployment (CI/CD) pipeline using CircleCI. The configurations for this pipeline are located in the `.circleci` folder in the root directory of this application.
 
-The staging environment is hosted on Render, allowing for changes to be tested before they are deployed to production. The Render environment is connected to the production database on AWS, where necessary changes and updates can be made.
+The staging environment is hosted on Render, allowing for changes to be tested before they are deployed to production. The Render environment is connected to a staging database on AWS, where necessary changes and updates can be made.
+
+14. Whenever environment variables are changed, update them in the Render settings to ensure the staging environment functions correctly. This ensures that the application behaves consistently across different environments.
 
 Good luck!
