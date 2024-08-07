@@ -10,11 +10,11 @@ See the documentation here: https://eufmd-fast-docs.onrender.com/
 
 ## Project setup
 
-1. Clone the repository.
+1. Clone the repository and create a .gitignore file.
 
-### .gitignore Settings
+#### .gitignore Settings
 
-2. This project uses a `.gitignore` file to exclude certain files and directories from version control. Here’s a summary of what’s ignored:
+This project uses a `.gitignore` file to exclude certain files and directories from version control. Here’s a summary of what’s ignored:
 
 - **Environment Files:** `.env`, `.env.example`, `.env.local`, `.env.production` – These files contain sensitive configuration and should not be committed to the repository.
 - **Build Artifacts:** `dist/`, `build/` – Generated build artifacts and temporary files are excluded to keep the repository clean.
